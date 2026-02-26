@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact-task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">Sa<i class="fa-solid fa-spoon"></i>ads</div>
+        <nav>
+            <ul class="menu">
+                <a href="index.html">
+                    <li class="elem">HOME
+                </a></li>
+                <li class="elem" id="elem-m"><a href="abouttask2.html" class="linknone"> ABOUT</a></li>
+                <li class="elem "><a href="menutask2.html" class="linknone">MENU</a></li>
+                <li class="elem">PAGES</li>
+                <li class="elem home menu menuhomepage"><a href="contact-task2.html"> CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="list-header"><i class="fa-solid fa-list fa-2x"></i></div>
+
+        <div class="srch">
+            <input type="text" class="inputbox1" placeholder="Enter a Keyword">
+            <button class="bthn"><i class="fa-brands fa-searchengin fa-1x" id="icon1"></i></button>
+        </div>
+    </header>
+    <!-- #################################################################### -->
+    <div class="container1">
+        <div class="heading01">
+            <h2>Contact Page</h2>
+            <div class="hometoabout">
+                <a href="index.html" class="home-backbutton">Home</a><i class="fa-solid fa-angle-right"></i>Menu Page
+            </div>
+        </div>
+        <div class="bannerimg01"><img src="banner2.png" alt="" class="imagebanner2"></div>
+    </div>
+    <div class="container2">
+    </div>
+    <!-- ########################Cards######################### -->
+    <div class="cards">
+        <div class="child-cards">
+            <div class="cards-elements"><i class="fa-solid fa-location-dot fa-2x"></i></div>
+            <div class="cards-elements">Location</div>
+            <div class="cards-elements">Dolor sit, #PTH,8800 Honey</div>
+            <div class="cards-elements">Street UK.</div>
+        </div>
+        <div class="child-cards">
+            <div class="cards-elements"><i class="fa-solid fa-phone fa-2x"></i></div>
+            <div class="cards-elements">Phone</div>
+            <div class="cards-elements">+22 123 984 434</div>
+            <div class="cards-elements">+44 123 984 439</div>
+        </div>
+        <div class="child-cards">
+            <div class="cards-elements"><i class="fa-regular fa-envelope fa-2x"></i></div>
+            <div class="cards-elements">Email</div>
+            <div class="cards-elements"> mail@example.com</div>
+            <div class="cards-elements">mail@example1.com</div>
+        </div>
+        <div class="child-cards">
+            <div class="cards-elements"><i class="fa-solid fa-clock fa-2x"></i></div>
+            <div class="cards-elements">Working Hours </div>
+            <div class="cards-elements">Wednesday - Sunday</div>
+            <div class="cards-elements">7:00 AM - 9:00 PM</div>
+        </div>
+    </div>
+    <!-- ########################Form##################### -->
+    <div class="form">
+
+        <form id="contactForm" action="#" method="POST">
+            <!-- <div class="first-two"></div> -->
+            <div class="form-group" id="first2">
+                <div class="half">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="half">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-group" id="first2">
+                <div class="half">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="half">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="button01">Submit Message</button>
+        </form>
+    </div>
+    <!-- #############################iFrame###################### -->
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d317287.20176495914!2d-0.303015!3d51.590114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2spl!4v1771864393430!5m2!1sen!2spl"
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" class="mapembedded"></iframe>
+    <!-- #######################Footer################# -->
+    <div class="email-updates">
+        <div>
+            <h2>Subscribe to get email updates of our latest news</h2>
+        </div>
+        <div>
+            <input type="text" placeholder="Enter Your Email" class="placeholder-email"><button
+                class="btn-email-container">Subscribe</button>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="chleft-footer">
+                <h2>About</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab.</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook" id="iconsocial"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-google-plus"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="chright-footer">
+                <h2>Contact Info</h2>
+
+                <span><i class="fa-solid fa-angle-right"></i>Food, 10001, 5th Avenue, #06 lane street, NY -
+                    62617.</span>
+                <span><i class="fa-solid fa-angle-right"></i> 63521-10001</span>
+                <span><i class="fa-solid fa-angle-right"></i>info@example.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
